@@ -1,0 +1,75 @@
+.add_content {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.w_content {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.w_content input {
+  padding: 10px;
+  border: 1px solid #b9e7;
+}
+
+.w_menu {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.editorContainer {
+  height: 300px;
+  overflow: scroll;
+  border: 1px solid #b9e7;
+}
+
+.editor {
+  height: 100%;
+  border: none;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid #b9e7;
+  flex: 1;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item span {
+  padding: 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button:first-child {
+  cursor: pointer;
+  color: purple;
+  background-color: white;
+  border: 1px solid purple;
+  padding: 3px 5px;
+}
+button:last-child {
+  cursor: pointer;
+  color: purple;
+  background-color: white;
+  border: 1px solid purple;
+  padding: 3px 5px;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  color: purple;
+}
